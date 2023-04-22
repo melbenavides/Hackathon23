@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: inter;
+}
+
+main{
+    text-align: center;
+
+}
+
+.center{
+    top: 60px;
+height: 40px;   
+display: flex;
+justify-content: center;
+position:relative;
+left: 450px  ;
+
+
+}
+
+.i1{
+background-color: #B6CCD4;
+border: none;
+border-radius: 2rem;
+width: 300px;
+height: 60px;
+
+
+
+}
+
+
+
+.perron{
+    position:absolute;
+    left: 200px;
+    top:130px;
+    font-size: 3rem;
+}
+
+
+
+
+.flecha{
+    opacity: 1;
+    position:absolute !important;
+    left: 35px;
+    top: 28px;
+    z-index: 12;
+
+}
+
+.a{
+    
+    text-align:right;
+    
+   left: 80px;
+    position: absolute;    
+    top: 32px;  
+
+}
+
+.kk{
+    background-color: #D9C5B2;
+    opacity: .6 ;
+    width: 180px;
+    border-radius: 30px;
+    height: 33px;
+    left: 25px;
+    position: absolute;    
+    top: 25px;
+
+}
+
+.t{
+    text-align:right;
+    font-size: 2rem;
+    left: 270px;
+     position: absolute;    
+     top: 250px;  
+ 
+}
+
+.m{
+    background-color: #4E67AB;
+    opacity: .6 ;
+    width: 360px;
+    border-radius: 40px;
+    height: 140px;
+    left: 190px;
+    position: absolute;    
+    top: 200px;
+}
+
+.lo{
+    background-color: #4E67AB;
+    opacity: .6 ;
+    width: 360px;
+    border-radius: 40px;
+    height: 140px;
+    left: 750px;
+    position: absolute;    
+    top: 200px;
+}
+
+
+.lupis{
+    position:absolute;
+    top:77px;
+    left: 970px;
+    z-index: 12;
+}
+
+
+
+
+
+.lak{
+    background-color: #939bb2;
+    opacity: .6 ;
+    width: 320px;
+    border-radius: 40px;
+    height: 200px;
+    left: 190px;
+    position: absolute;    
+    top: 300px;
+    padding-inline-start: 1cm;
+    padding-top: 3cm;
+    
+    
+}
+.ra{
+    background-color: #939bb2;
+    opacity: .6 ;
+    width: 345px;
+    border-radius: 40px;
+    height: 200px;
+    left: 750px;
+    position: absolute;    
+    top: 300px;
+    padding-inline-start: .5cm;
+    padding-top: 3cm;
+
+}
+
+
+
+.c{
+    text-align:right;
+    font-size: 2rem;
+    left: 800px;
+     position: absolute;    
+     top: 250px;  
+}
+.o{
+    width: fit-content;
+    text-align:right;
+    
+    left: 200px;
+     position: absolute;    
+     top: 400px;  
+ 
+}
+
+
+
+.l{
+    width: fit-content;
+    text-align:right;
+    
+    left: 800px;
+     position: absolute;    
+     top: 400px;  
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./Inter-VariableFont_slnt\,wght\ \(1\).ttf);
+ }
