@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="./mc.css">
+    </head>
+    <meta charset="UTF-8">
+
+<body>
+
+    <br>
+
+    <img src="./Feather-arrows-arrow-left.svg.png" alt="" width="25px" class="arrow">
+    <div class="b">
+        
+        <span>Volver al inicio</span>
+
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="top">
+        <span id="documentos">Materia Civil</span>
+        <br>
+        <br>
+            <em>Selecciona los campos que corresponden a tu caso y recibe asesoría para proceder tu caso.</em>
+    
+    </div>
+
+    <br>
+
+    <img src="./735px-Magnifying_glass_icon.svg.png" alt="" width="25px">
+    <div class="center">
+        <input type="search" class="i1">
+    </div>
+
+    <div>
+        <span id="tbuscador">Ingresa palabras clave</span>
+    </div>
+
+    <br>
+
+    <main>
+        <div class="top2">
+            <p>Selecciona tu caso. <em>De preferencia, selecciona 3 o más campos</em></p>   
+        </div>
+
+        <br>
+
+        <form>
+        
+        <div class="checkl1">
+            <label><input type="checkbox" id="Divorcio" value="first_checkbox"> Divorcio</label><br>
+            <label><input type="checkbox" id="Hijos" value="first_checkbox"> Hijos</label><br>
+            <label><input type="checkbox" id="Bienes" value="first_checkbox"> Bienes</label><br>
+            <label><input type="checkbox" id="Herencia" value="first_checkbox" > Herencia</label><br>
+        </div>
+
+
+        
+        <div class="checkl2">
+            <label><input type="checkbox" id="Demandas" value="first_checkbox" > Demandas</label><br>
+            <label><input type="checkbox" id="Escrituras" value="first_checkbox"> Escrituras</label><br>
+            <label><input type="checkbox" id="Testamentos" value="first_checkbox"> Testamentos</label><br>
+            <label><input type="checkbox" id="Contratos" value="first_checkbox"> Contratos</label><br>
+        </div>
+
+        <section class="list">
+            <p>Puedes proceder con este caso de las siguientes maneras:</p>
+            <ul class="list_final">
+                <li>Demanda por divorcio necesario.</li>
+                <li>Pension alimenticia</li>
+                <li>Custodia de mi hijo</li>
+                <li>Herencia de bienes</li>
+                <li>Concubinato</li>
+            </ul>
+        </section>   
+        
+        
+        <div class="botGPT">
+            <div id="enviar" onclick="toggle()">Recibe tu asesoría</div>
+        </div>
+      </form>
+      
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
+
+<script>
+
+    
+    const otherCheckbox = document.querySelector('#Divorcio');
+    const otherText = document.querySelector('#Hijos');
+    const otherCheckbox2 = document.querySelector('#Bienes');
+    const otherText2 = document.querySelector('#Herencia');
+    const otherCheckbox3 = document.querySelector('#Demandas');
+    const otherText3 = document.querySelector('#Escrituras');
+    otherText.style.visibility = 'hidden';
+
+    otherCheckbox.addEventListener('change', () => {
+    if (otherCheckbox.checked) {
+        otherText.style.visibility = 'visible';
+        otherText.value = '';
+        otherCheckbox2.style.visibility='visible';
+    } else {
+        otherText.style.visibility = 'hidden';
+        otherCheckbox2.style.visibility='hidden';
+    }
+    });
+
+
+
+</script>
